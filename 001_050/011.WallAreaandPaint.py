@@ -9,4 +9,5 @@ area = width * height
 paint = math.ceil(area / 2)
 
 print("Wall area:", area, "square meters")
-print("paint needed:", paint, "liters")
+print("paint needed:", paint, "liters")  
+
