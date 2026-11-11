@@ -1,10 +1,10 @@
 
-# Hypotenuse Calculation
+# Hypotenuse Calculator
 
 # Import the hypotenuse function.
 from math import hypot
 
-# Get the opposite and adjacent sides of a right triangle.
+# Get the opposite and adjacent sides.
 opposite = float(input("Enter the opposite side: "))
 adjacent = float(input("Enter the adjacent side: "))
 

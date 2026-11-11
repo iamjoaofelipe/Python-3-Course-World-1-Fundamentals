@@ -1,13 +1,21 @@
-# Calculate the wall area and paint amount.
 
-import math
+# Wall Area and Paint Calculator
 
-width = (float(input("wall width in meters:" ))) 
-height = (float(input("wall height in meters:" )))
+# Import the ceil function.
+from math import ceil
 
+# Get the wall width.
+width = float(input("Enter the wall width in meters: "))
+
+# Get the wall height.
+height = float(input("Enter the wall height in meters: "))
+
+# Find the wall area.
 area = width * height
-paint = math.ceil(area / 2)
 
+# Find the paint amount.
+paint = ceil(area / 2)
+
+# Show the results.
 print("Wall area:", area, "square meters")
-print("paint needed:", paint, "liters")  
-
+print("Paint needed:", paint, "liters")
