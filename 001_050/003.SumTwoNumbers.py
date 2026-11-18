@@ -10,5 +10,7 @@ number2 = input("Enter the second number: ")
 total = int(number1) + int(number2)
 
 # show the total.
-print("The answer is:", total)
+print("The sum of", number1, "and", number2, "is", total)
+
+
 
